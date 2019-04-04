@@ -37,7 +37,7 @@ jscodeshift -t codemods/transforms/default-props.js <path>
 
 * Use `ReactUtils` module from `react-codemod` package instead of copy-pasting
 * Extract reusable util method from `default-props.js` module
-* Support modules with multiple components and multiple propTypes definitions (common/InputOrStatic)
+* Support modules with multiple components and multiple propTypes definitions
 * Support functional components with HOCs / non arrow function declaration (componentName undefined)
 * Support modules with existing but incomplet defaultProps ?
 * Add trailing commas at end of lines (with option do deactivate ?) https://eslint.org/docs/rules/comma-dangle
