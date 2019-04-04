@@ -16,7 +16,7 @@ Available types for writing codemods and manipulating AST with jscodeshift API a
 
 ```sh
 npm install -g jscodeshift
-git clone git@git.lbg.office.fr.lyra:ehelier/codemods.git
+git clone git@github.com:ricovitch/codemod-react-default-props.git
 jscodeshift -t <codemod-script> <file>
 ```
 
