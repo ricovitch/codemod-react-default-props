@@ -1,0 +1,21 @@
+{
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "rules": {
+    "strict": "off",
+    "linebreak-style": "off",
+    "max-len": ["error", 120],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 1 }],
+    "import/no-cycle": "off",
+    "import/prefer-default-export": "off",
+    "object-curly-newline": [
+      "error",
+      {
+        "ObjectExpression": { "minProperties": 6, "multiline": true, "consistent": true },
+        "ObjectPattern": { "minProperties": 6, "multiline": true, "consistent": true },
+        "ImportDeclaration": { "multiline": true, "consistent": true },
+        "ExportDeclaration": { "minProperties": 6, "multiline": true, "consistent": true }
+      }
+    ]
+  }
+}

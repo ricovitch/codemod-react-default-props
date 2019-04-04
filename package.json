@@ -1,0 +1,26 @@
+{
+  "name": "codemods",
+  "version": "1.0.0",
+  "description": "codemods based on jscodeshift",
+  "repository": "git@git.lbg.office.fr.lyra:ehelier/codemods.git",
+  "author": "Eric Hélier <eric.helier@free.fr>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "jscodeshift": "^0.5.1"
+  }
+}
