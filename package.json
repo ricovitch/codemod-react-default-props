@@ -1,10 +1,10 @@
 {
-  "name": "codemods",
+  "name": "codemod-react-default-props",
   "version": "1.0.0",
-  "description": "codemods based on jscodeshift",
-  "repository": "git@git.lbg.office.fr.lyra:ehelier/codemods.git",
+  "description": "JSCodeshift codemod to add default values to React components optional proptypes",
+  "repository": "git@github.com:ricovitch/codemod-react-default-props.git",
   "author": "Eric Hélier <eric.helier@free.fr>",
-  "license": "MIT",
+  "license": "BSD",
   "scripts": {
     "lint": "eslint .",
     "test": "jest"
